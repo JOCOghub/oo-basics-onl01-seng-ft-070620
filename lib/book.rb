@@ -16,6 +16,6 @@ class Book
     @author
   end
   
-  
+  attr_accessor :page_count
 end
 
