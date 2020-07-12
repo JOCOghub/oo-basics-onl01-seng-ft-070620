@@ -4,10 +4,10 @@ class Shoe
    :size, :material,
    :condition
    
-  attr_reader :name
+  attr_reader :brand
   
-  def initialize(name)
-    @name = name
+  def initialize(brand)
+    @brand = brand
   end  
   
   def cobble
