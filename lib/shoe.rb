@@ -5,6 +5,6 @@ class Shoe
   attr_accessor :condition, attr_reader :shoe
   
   def initialize(shoe)
-    
+    @shoe = shoe
   
 end   
